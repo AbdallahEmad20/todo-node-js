@@ -2,7 +2,7 @@
 require("dotenv").config()
 const {connectDB}  =  require("./db")
 const express =  require("express")
-const cors = require('cors'); // <-- ضيف السطر ده فوق خالص يا عالمي
+const cors = require('cors'); 
 const app =  express()
 app.use(express.json())
 app.use(cors());
